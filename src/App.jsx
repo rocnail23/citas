@@ -8,7 +8,7 @@ function App() {
 
   let listaCitas = JSON.parse(localStorage.getItem("citas"))
   if(!listaCitas){
-    console.log(hola)
+    
     listaCitas = []
   }
 
